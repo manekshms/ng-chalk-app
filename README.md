@@ -1,5 +1,5 @@
 # NgChalkApp
-NgChal is a UI Component library.
+NgChalk is a UI Component library.
 
 ## Example
 [https://manekshms.github.io/ng-chalk-app/ng-chalk-example/](https://manekshms.github.io/ng-chalk-app/ng-chalk-example/)
