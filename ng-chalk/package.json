@@ -1,10 +1,24 @@
 {
   "name": "ng-chalk",
-  "version": "0.0.1",
+  "description": "Angular Chalk UI Component Library",
+  "version": "0.0.3",
   "peerDependencies": {
     "@angular/common": "^8.1.3",
     "@angular/core": "^8.1.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:manekshms/ng-chalk-app.git"
+  },
+  "keywords": [
+    "Angular Chalk"
+  ],
+  "author": {
+    "name": "Maneksh MS",
+    "url": "http://www.manekshms.com",
+    "email": "manekshms@gmail.com"
+  },
+  "license": "MIT",
   "main": "bundles/ng-chalk.umd.js",
   "module": "fesm5/ng-chalk.js",
   "es2015": "fesm2015/ng-chalk.js",
