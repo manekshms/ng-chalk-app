@@ -10,6 +10,7 @@
     "build": "ng build",
     "build:library": "ng build ng-chalk",
     "build:library:watch": "ng build ng-chalk --watch",
+    "publish:gitpage": "ngh",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
