@@ -1,5 +1,6 @@
 # NgChalkApp
 NgChalk is a UI Component library.
+![Screenshort](https://raw.githubusercontent.com/manekshms/ng-chalk-app/master/projects/ng-chalk-example/src/assets/img/ng-chalk-example.png)
 
 ## Example
 [https://manekshms.github.io/ng-chalk-app/ng-chalk-example/](https://manekshms.github.io/ng-chalk-app/ng-chalk-example/)
@@ -76,7 +77,7 @@ your own template theme and it is very easy
 ```ts
 import { NgChalkTemplate } from 'ng-chalk';
 // all these properties in the class are optional
-export const fooTemplate:NgChalkTemplate {
+export const fooTemplate:NgChalkTemplate = {
     color: "#cf0a11",
     bg: "#fdd9d9",
     padding: "3px",
