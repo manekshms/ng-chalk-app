@@ -76,12 +76,12 @@ your own template theme and it is very easy
 ```ts
 import { NgChalkTemplate } from 'ng-chalk';
 // all these properties in the class are optional
-export class FooTemplate {
-    color:String = "#cf0a11"
-    bg:String = "#fdd9d9";
-    padding:String = "3px";
-    borderVal:String = "1px solid #ddd";
-    borderRadius:String = "2px";
+export const fooTemplate:NgChalkTemplate {
+    color: "#cf0a11",
+    bg: "#fdd9d9",
+    padding: "3px",
+    borderVal: "1px solid #ddd",
+    borderRadius: "2px"
 }
 ```
 
@@ -89,13 +89,13 @@ export class FooTemplate {
 ```ts
 // Import library module
 import { NgChalkModule } from 'ng-chalk';
-import { FooTemplate } from 'foo-template.ts';
+import { fooTemplate } from 'foo-template.ts';
 
 @NgModule({
   imports: [
     NgChalkModule.forRoot({
       templates: [
-        { name: 'foo', template: new FooTemplate()}
+        { name: 'foo', template: fooTemplate}
       ]
     })
   ]
