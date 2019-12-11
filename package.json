@@ -10,7 +10,8 @@
     "build": "ng build",
     "build:library": "ng build ng-chalk",
     "build:library:watch": "ng build ng-chalk --watch",
-    "publish:gitpage": "ngh",
+    "build:app": "ng build ng-chalk-example --prod --base-href=ng-chalk-example",
+    "publish:gitpage": "npm run clean && npm run build:library && npm run build:app && ngh",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

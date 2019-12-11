@@ -1,6 +1,6 @@
 import { NgChalkTemplate } from 'ng-chalk';
 
-export class FooTemplate {
-    color:String = "#fff"
-    bg:String = "#1366ff";
+export const fooTemplate:NgChalkTemplate = {
+    color: "#fff",
+    bg:  "#1366ff"
 }
